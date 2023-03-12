@@ -8,3 +8,4 @@
 |  02  |         [타입스크립트 설정 이해하기](./ch01_%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/item02.md)          | 2023.03.08 | Complete |
 |  03  |   [코드 생성과 타입이 관계없음을 이해하기](./ch01_%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/item03.md)    | 2023.03.09 | Complete |
 |  04  |         [구조적 타이핑에 익숙해지기](./ch01_%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/item04.md)          | 2023.03.10 | Complete |
+|  04  |         [구조적 타이핑에 익숙해지기](./ch01_%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/item05.md)          | 2023.03.12 | Complete |
