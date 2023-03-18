@@ -10,3 +10,4 @@
 |  04  |           [구조적 타이핑에 익숙해지기](./ch01_%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/item04.md)            | 2023.03.10 | Complete |
 |  05  |                [any 타입 지양하기](./ch01_%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/item05.md)                | 2023.03.12 | Complete |
 |  06  | [편집기를 사용하여 타입 시스템 탐색하기](./ch02_%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_%ED%83%80%EC%9E%85%EC%8B%9C%EC%8A%A4%ED%85%9C/item06.md) | 2023.03.13 | Complete |
+|  07  |   [타입이 값들의 집합이라고 생각하기](./ch02_%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_%ED%83%80%EC%9E%85%EC%8B%9C%EC%8A%A4%ED%85%9C/item07.md)    | 2023.03.18 |   ~ing   |
