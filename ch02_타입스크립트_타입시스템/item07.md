@@ -74,7 +74,6 @@ type PersonSpan = Person & Lifespan;
 	name: string;
 	birth: Date;
 	death?: Date;
-  ... 그 외 가능 ...
 } 
 */
 ```
@@ -214,6 +213,48 @@ getKey({}, "x");
 getKey({}, Math.random() < 0.5 ? "a" : "b");
 getKey({}, document.title);
 getKey({}, 12); // Argument of type 'number' is not assignable to parameter of type 'string'.(2345)
+```
+
+좀 더 구체적인 예시를 살펴보면 다음과 같습니다.
+
+```tsx
+interface Point {
+  x: number;
+  y: number;
+}
+
+type PointKeys = keyof Point; // "x" | "y"
+
+function sortBy<K extends keyof T, T>(vals: T[], key: K): T[] {
+  // ...
+  return vals;
+}
+
+const pts: Point[] = [
+  { x: 1, y: 1 },
+  { x: 2, y: 0 },
+];
+sortBy(pts, "x"); // 'x'는 'x' | 'y'를 상속
+sortBy(pts, "y"); // 'y'는 'x' | 'y'를 상속
+sortBy(pts, Math.random() < 0.5 ? "x" : "y"); // 'x' | 'y'는 'x' | 'y'를 상속
+```
+
+### 배열과 튜플의 관계
+
+number[]는 [number, number]의 부분집합은 아니기 때문에 할당할 수 없습니다. 그 반대는 가능합니다.
+
+```tsx
+const list = [1, 2]; // number[]
+const tuple: [number, number] = list; // Type 'number[]' is not assignable to type '[number, number]'.
+// Target requires 2 element(s) but source may have fewer.(2322)
+```
+
+오류가 발생했는데, 그 이유가 흥미롭습니다. length의 값이 맞지 않기 때문에 할당문에 오류가 발생했습니다. 쌍에서 길이를 체크하는 것은 합리적이며, 이보다 나은 방법은 없을 것입니다.
+
+```tsx
+const triple: [number, number, number] = [1, 2, 3];
+const double: [number, number] = triple; // Type '[number, number, number]' is not assignable to type '[number, number]'.
+//Source has 3 element(s) but target allows only 2.(2322)
 ```
 
 ### 마치면서
