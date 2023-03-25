@@ -13,3 +13,4 @@
 |  07  |   [타입이 값들의 집합이라고 생각하기](./ch02_%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_%ED%83%80%EC%9E%85%EC%8B%9C%EC%8A%A4%ED%85%9C/item07.md)    | 2023.03.18 | Complete |
 |  08  |  [타입 공간과 값 공간의 심벌 구분하기](./ch02_%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_%ED%83%80%EC%9E%85%EC%8B%9C%EC%8A%A4%ED%85%9C/item08.md)   | 2023.03.20 | Complete |
 |  09  |  [타입 단언보다는 타입 선언을 사용하기](./ch02_%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_%ED%83%80%EC%9E%85%EC%8B%9C%EC%8A%A4%ED%85%9C/item09.md)  | 2023.03.23 | Complete |
+|  11  |     [잉여 속성 체크의 한계 인지하기](./ch02_%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_%ED%83%80%EC%9E%85%EC%8B%9C%EC%8A%A4%ED%85%9C/item11.md)     | 2023.03.25 | Complete |
